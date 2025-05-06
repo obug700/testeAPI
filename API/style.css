@@ -1,0 +1,47 @@
+/* Estilização básica */
+body {
+    font-family: Arial, sans-serif;
+    background: #e0f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background: white;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 300px;
+  }
+  
+  input {
+    padding: 0.5em;
+    width: 80%;
+    margin-top: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 0.5em 1em;
+    margin-top: 1em;
+    border: none;
+    background-color: #00acc1;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #00838f;
+  }
+  
+  #resultado {
+    margin-top: 1.5em;
+    font-size: 1.2em;
+    color: #333;
+  }
